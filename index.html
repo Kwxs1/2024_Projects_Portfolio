@@ -4,15 +4,40 @@
         <meta charset = "UTF-8"/>
         <meta http-equiv = "X-UA-Compatible" content="IE=edge"/>
         <meta name = "viewport" content="width=devide-width, initial-scale=1.0">
-
         <title>Wordle Clone</title>
         <meta name = " description" content = "Wordle clone by Kwxsi" />
-
-
-
         <link rel = "stylesheet" href="./src_wordle/style.css"/>
+        <script src="https://kit.fontawesome.com/5267f6cc31.js" crossorigin="anonymous"></script>
+
     </html>
-    <body>
+    <body>  
+        <nav class="navbar"> 
+            <div class="navbar__container">
+                <div class="sandwich__menu">
+                    <span class = "bar"></span>
+                    <span class = "bar"></span>
+                    <span class = "bar"></span>
+                </div>
+                <div class="title">
+                    <a href="#home">Wordle</a>
+                </div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="/" class="navbar__icons"><i class="fa-solid fa-question"></i></a>
+					</li>
+					<li class="navbar__item">
+						<a href="/" class="navbar__icons"><i class="fa-solid fa-chart-simple"></i></a>
+					</li>
+					<li class="navbar__item">
+						<a href="/" class="navbar__icons"><i class="fa-solid fa-gear"></i></a>
+					</li>
+					<li class="navbar__button">
+						<a href="/" class="button">Subscribe to Kwesi</a>
+					</li>
+				</ul>
+                </div>
+            </div>          
+        </nav>
         
         <div id="game"></div>
         <script src="./src_wordle/index.js" type="module"></script>

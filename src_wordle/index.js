@@ -139,7 +139,7 @@ function revealWord(guess) { //reveals the correctness of a guess
 		if (isWinner){
 			alert("Woop Woop!");
 		 } else if (isGameOver) {
-			alert('Lock in next time bud, the word was, ${state.secret}');
+			alert('Lock in next time bud, the word was, ' + state.secret);
 		 }
 	 }, 3 * animation_duration);
 }
